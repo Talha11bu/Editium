@@ -1,0 +1,5 @@
+Editor\Actions.class
+Editor\KeyBindings.class
+Editor\Search.class
+Editor\WorkArea.class
+Editor\Main.class
