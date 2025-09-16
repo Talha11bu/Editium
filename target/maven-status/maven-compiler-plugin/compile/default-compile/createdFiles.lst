@@ -1,5 +1,5 @@
 Editor\Actions.class
 Editor\KeyBindings.class
-Editor\Search.class
 Editor\WorkArea.class
+Editor\SearchBox.class
 Editor\Main.class

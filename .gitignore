@@ -1,0 +1,4 @@
+.git
+
+# ignore the build file of the project
+target

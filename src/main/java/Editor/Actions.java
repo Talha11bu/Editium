@@ -12,9 +12,8 @@ import java.io.IOException;
 
 class Actions{
 
-    final private Search lookup = new Search(this);
-
-    final WorkArea gui;
+    private SearchBox lookup = new SearchBox(this);
+    WorkArea gui;
     private String fileName, fileAddress;
     private FileDialog fileDialog;
     private FileWriter fileSaver;

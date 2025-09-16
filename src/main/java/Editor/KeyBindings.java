@@ -1,8 +1,8 @@
 package Editor;
 
-import java.awt.event.KeyListener;
-import java.awt.event.KeyEvent;
 import java.awt.Font;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 class KeyBindings implements KeyListener{
 

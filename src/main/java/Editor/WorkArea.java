@@ -21,7 +21,7 @@ import javax.swing.undo.UndoManager;
 class WorkArea {
 
     private final Actions action = new Actions(this);
-    final UndoManager undoMgr = new UndoManager();
+    UndoManager undoMgr = new UndoManager();
 
     JFrame frame;
     JTextArea textArea;
@@ -35,8 +35,7 @@ class WorkArea {
     WorkArea(){
         createFrame();
         createTextArea();  
-        createMenuBar();      
-        
+        createMenuBar(); 
         frame.setVisible(true);
     }
 
@@ -44,7 +43,7 @@ class WorkArea {
         frame = new JFrame("Editium");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   
         frame.setSize(800, 600);
-        frame.setIconImage(new ImageIcon("Icon.png").getImage());
+        frame.setIconImage(new ImageIcon("src\\main\\resources\\Icon.png").getImage());
         frame.setLocationRelativeTo(null);
 
     }
